@@ -1,0 +1,112 @@
+@media only screen and (max-width: 767px) {
+    ol li {
+        display: none!important;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
+body { 
+    background-color:#dfe4ea!important;
+    font-family: 'Comic Neue', cursive;
+}
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+nav {
+    background-color:#3e4095!important;
+}
+nav ul li a {
+    transition: 0.2s;
+    border-bottom: none;
+}
+nav ul li a:hover {
+    transform: scale(1.03)!important;
+    transition: 0.2s;
+    color:#fff212!important;
+}
+
+.box {
+    height: 30rem;
+}
+
+.satu {
+    height: 100%;
+    width: 100%;
+    
+}
+h5 {
+    text-align: left!important;
+}
+.alamat {
+    color: #2e86de!important;
+    text-decoration: underline!important;
+}
+.a {
+    width: 100%;
+    border: none!important;
+    height:600px;
+}
+.b {
+    border: blueviolet 1px solid;
+    height: 10px!important;
+}
+ol li a {
+    text-decoration: none!important;
+}
+iframe {
+    height: 350px;
+}
+.m {
+    transition: 0.5s;
+}
+.m:hover {
+    transform: scale(1.01);
+}
+.gallery {
+    transition: 0.8s;
+    max-height: 290px!important;
+}
+.gallery:hover {
+    transform: scale(1.03);
+}
+.testimoni {
+    margin-top: 100px!important;
+}
+.img-thumbnail {
+    border: none!important;
+}
+
+.ada {
+    display: inline-block;
+}
+.text-gede, .text-kecil{
+    color: #3e4095;
+}
+.text-kuning {
+    color: #fff212;
+}
+.kotak {
+    border-radius: 5px;
+    color: #ffff!important;
+    border: 1px solid #ffffff;
+}
+.kotak:hover {
+    border: 1px solid #fff212;
+}
+.pencetan, .ungu {
+    
+    background-color:#3e4095!important;
+}
+.pencetan:hover {
+    transform: scale(1.02);
+}
+
+.selamat {
+    font-family: 'Times New Roman', Times, serif;
+}
+td a {
+    text-decoration: none!important;
+}

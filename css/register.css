@@ -1,0 +1,88 @@
+
+@media only screen and (max-width: 580px) {
+  
+   label {
+       text-align: center!important;
+   }
+}
+@media only screen and (max-width: 767px) {
+    ol li {
+        display: none!important;
+    }
+}
+@font-face {
+   
+    font-family: Segio;
+    src: url(SegioPrint.ttf);
+  }
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color:#dfe4ea!important;
+    font-family: 'Comic Neue'!important;
+}
+.DM2 {
+    
+    transition: 0.2s;
+    border-bottom: none;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color:#3e4095!important;
+}
+nav ul li a {
+    transition: 0.2s;
+    border-bottom: none;
+}
+nav ul li a:hover {
+    transform: scale(1.05)!important;
+    transition: 0.2s;
+    color:#fff212!important;
+}
+
+label {
+    text-align: right;
+}
+.desc {
+    padding: 2em 50%!important;
+}
+.c {
+    transition: 0.2s;
+    width: 5em;
+}
+.c:hover {
+    
+    transform: scale(1.02);
+}
+ol li a {
+    text-decoration: none!important;
+}
+.text-gede, .text-kecil{
+    color: #3e4095;
+}
+.kotak {
+    border-radius: 5px;
+    color: #ffff!important;
+    border: 1px solid #ffffff;
+}
+.kotak:hover {
+    border: 1px solid #fff212;
+}
+.pencetan, .ungu {
+    transition: 0.2s;
+    background-color:#3e4095!important;
+}
+.pencetan:hover {
+    transform: scale(1.02);
+}
+
+
+
+
